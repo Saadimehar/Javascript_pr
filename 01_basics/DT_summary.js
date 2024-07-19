@@ -35,3 +35,29 @@ const myFunction = function(){
 console.log(typeof bigNumber);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//****************************************88 */
+
+//Stack(Primitive) , Heap(Non-Primitive)
+
+let mylinkedinName = "MuhammadSaad"
+
+let myinstagramName = mylinkedinName
+myinstagramName = "isaadimehar"
+
+console.log(mylinkedinName);
+console.log(myinstagramName);
+
+let user1 = {
+    email: "123@gmail.com",
+    name : "Asadullah"
+}
+
+let user2 = user1
+
+user2.email = "saad49861@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
