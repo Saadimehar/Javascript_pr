@@ -37,6 +37,7 @@ html {
   #black{
     background: black;
     color: white;
+    border-color: white;
   }
   #red{
     background: red;
