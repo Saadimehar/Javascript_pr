@@ -18,7 +18,7 @@ form.addEventListener('submit', function (e) {
         // results.innerHTML = `<span>${bmi}</span>`
         
         //Show weight results like Under, Normal & Over Weight
-        weightcat = ''
+        // weightcat = ''
         if(bmi<18.6){
             weightcat = `Under Weight`;
         }else if(bmi<=24.9){
